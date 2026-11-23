@@ -16,8 +16,7 @@ A web application for browsing and ordering handcrafted wooden furniture (chairs
 - Admin dashboard for adding and deleting products with image upload
 
 ## Screenshots
-![Home Page](screenshots/home.png)
-![Catalog & Specifications](screenshots/catalog.png)
+![Home Page](homepage.png)
 
 ## How to Run Locally
 1. Start MySQL (e.g., via XAMPP) on port `3306`.

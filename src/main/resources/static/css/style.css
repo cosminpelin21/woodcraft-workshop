@@ -1,0 +1,141 @@
+/* Main Stylesheet - WoodCraft Workshop */
+:root {
+    --primary-wood: #5c3a21;
+    --secondary-wood: #8b5a2b;
+    --light-bg: #f8f5f2;
+    --text-dark: #2c241e;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--light-bg);
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.navbar-wood {
+    background-color: var(--primary-wood);
+    padding: 15px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-wood a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 18px;
+}
+
+.navbar-wood a:hover {
+    color: #e6ccb2;
+}
+
+/* Animation Requirement (Nota 4) */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.product-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid #e0d6cc;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgba(92, 58, 33, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.btn-wood {
+    background-color: var(--secondary-wood);
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.btn-wood:hover {
+    background-color: var(--primary-wood);
+    color: #ffffff;
+}
+
+/* Carousel Styles (Nota 4) */
+.carousel-container {
+    position: relative;
+    max-width: 100%;
+    height: 360px;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.carousel-slide {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-slide.active {
+    display: block;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption-box {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(44, 36, 30, 0.8);
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.carousel-btn.prev { left: 10px; }
+.carousel-btn.next { right: 10px; }
+
+footer {
+    background-color: var(--primary-wood);
+    color: #e6ccb2;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}

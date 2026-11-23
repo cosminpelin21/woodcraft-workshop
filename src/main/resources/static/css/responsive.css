@@ -1,0 +1,46 @@
+/* Responsive Styles for Tablet and Mobile (Nota 5) */
+
+/* Tablet View */
+@media (max-width: 992px) {
+    .carousel-container {
+        height: 280px;
+    }
+
+    .product-card img {
+        height: 190px;
+    }
+
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 600px) {
+    .navbar-wood .nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 10px;
+    }
+
+    .carousel-container {
+        height: 210px;
+    }
+
+    .carousel-caption-box h2 {
+        font-size: 1.1rem;
+    }
+
+    .carousel-caption-box p {
+        font-size: 0.85rem;
+        margin-bottom: 0;
+    }
+
+    .table-responsive-mobile {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+}

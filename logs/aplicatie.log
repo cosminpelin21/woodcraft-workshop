@@ -1,0 +1,179 @@
+2026-11-23T14:47:53.454+02:00  INFO 26632 --- [main] r.p.a.AplicatieWebApplication            : Starting AplicatieWebApplication using Java 26.0.2 with PID 26632 (C:\Users\cosmi.COSMIN_LAPTOP\Downloads\aplicatie-web\aplicatie-web\target\classes started by cosmi in C:\Users\cosmi.COSMIN_LAPTOP\Downloads\aplicatie-web\aplicatie-web)
+2026-11-23T14:47:53.461+02:00  INFO 26632 --- [main] r.p.a.AplicatieWebApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-11-23T14:47:54.451+02:00  INFO 26632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T14:47:54.479+02:00  INFO 26632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2026-11-23T14:47:55.221+02:00  INFO 26632 --- [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-23T14:47:55.263+02:00  INFO 26632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T14:47:55.264+02:00  INFO 26632 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-23T14:47:55.464+02:00  INFO 26632 --- [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1892 ms
+2026-11-23T14:47:55.724+02:00  INFO 26632 --- [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-23T14:47:55.820+02:00  INFO 26632 --- [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.15.Final
+2026-11-23T14:47:56.573+02:00  INFO 26632 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T14:47:56.630+02:00  INFO 26632 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T14:47:56.895+02:00  INFO 26632 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61c4cebd
+2026-11-23T14:47:56.898+02:00  INFO 26632 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T14:47:56.979+02:00  WARN 26632 --- [main] org.hibernate.orm.core                   : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-11-23T14:47:57.009+02:00  INFO 26632 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/atelier_lemn?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: atelier_lemn/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23T14:47:57.622+02:00  INFO 26632 --- [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T14:47:57.674+02:00  INFO 26632 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T14:47:57.750+02:00  WARN 26632 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T14:47:58.122+02:00  WARN 26632 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-11-23T14:47:58.245+02:00  WARN 26632 --- [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1eb98a99-099d-4034-9d4a-bd20c35c8299
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-11-23T14:47:58.303+02:00  INFO 26632 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-11-23T14:47:58.599+02:00  INFO 26632 --- [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T14:47:58.607+02:00  INFO 26632 --- [main] r.p.a.AplicatieWebApplication            : Started AplicatieWebApplication in 6.022 seconds (process running for 7.64)
+2026-11-23T14:49:38.655+02:00  INFO 26632 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-23T14:49:38.661+02:00  INFO 26632 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-23T14:49:38.666+02:00  INFO 26632 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T14:49:38.669+02:00  INFO 26632 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T14:49:38.681+02:00  INFO 26632 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-23T14:52:14.436+02:00  INFO 20180 --- [main] r.p.a.AplicatieWebApplication            : Starting AplicatieWebApplication using Java 26.0.2 with PID 20180 (C:\Users\cosmi.COSMIN_LAPTOP\Downloads\aplicatie-web\aplicatie-web\target\classes started by cosmi in C:\Users\cosmi.COSMIN_LAPTOP\Downloads\aplicatie-web\aplicatie-web)
+2026-11-23T14:52:14.440+02:00  INFO 20180 --- [main] r.p.a.AplicatieWebApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-11-23T14:52:15.535+02:00  INFO 20180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T14:52:15.574+02:00  INFO 20180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 0 JPA repository interfaces.
+2026-11-23T14:52:16.303+02:00  INFO 20180 --- [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-23T14:52:16.324+02:00  INFO 20180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T14:52:16.324+02:00  INFO 20180 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-23T14:52:16.431+02:00  INFO 20180 --- [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1918 ms
+2026-11-23T14:52:16.666+02:00  INFO 20180 --- [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-23T14:52:16.735+02:00  INFO 20180 --- [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.15.Final
+2026-11-23T14:52:17.401+02:00  INFO 20180 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T14:52:17.444+02:00  INFO 20180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T14:52:17.647+02:00  INFO 20180 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61c4cebd
+2026-11-23T14:52:17.650+02:00  INFO 20180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T14:52:17.719+02:00  WARN 20180 --- [main] org.hibernate.orm.core                   : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-11-23T14:52:17.745+02:00  INFO 20180 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/wood_workshop?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: wood_workshop/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23T14:52:18.315+02:00  INFO 20180 --- [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T14:52:18.361+02:00  INFO 20180 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T14:52:18.441+02:00  WARN 20180 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T14:52:18.765+02:00  WARN 20180 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-11-23T14:52:18.894+02:00  WARN 20180 --- [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b4434d1a-0a28-4b7b-9c91-3a95cfa8017f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-11-23T14:52:18.948+02:00  INFO 20180 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-11-23T14:52:19.205+02:00  INFO 20180 --- [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T14:52:19.213+02:00  INFO 20180 --- [main] r.p.a.AplicatieWebApplication            : Started AplicatieWebApplication in 5.554 seconds (process running for 6.373)
+2026-11-23T14:52:24.630+02:00  INFO 20180 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-23T14:52:24.638+02:00  INFO 20180 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-23T14:52:24.642+02:00  INFO 20180 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T14:52:24.645+02:00  INFO 20180 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T14:52:24.653+02:00  INFO 20180 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-23T14:57:30.024+02:00  INFO 1904 --- [main] r.p.a.AplicatieWebApplication            : Starting AplicatieWebApplication using Java 26.0.2 with PID 1904 (C:\Users\cosmi.COSMIN_LAPTOP\Downloads\aplicatie-web\aplicatie-web\target\classes started by cosmi in C:\Users\cosmi.COSMIN_LAPTOP\Downloads\aplicatie-web\aplicatie-web)
+2026-11-23T14:57:30.028+02:00  INFO 1904 --- [main] r.p.a.AplicatieWebApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-11-23T14:57:31.096+02:00  INFO 1904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T14:57:31.124+02:00  INFO 1904 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 0 JPA repository interfaces.
+2026-11-23T14:57:31.876+02:00  INFO 1904 --- [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-23T14:57:31.896+02:00  INFO 1904 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T14:57:31.896+02:00  INFO 1904 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-23T14:57:31.974+02:00  INFO 1904 --- [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1875 ms
+2026-11-23T14:57:32.205+02:00  INFO 1904 --- [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-23T14:57:32.287+02:00  INFO 1904 --- [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.15.Final
+2026-11-23T14:57:32.891+02:00  INFO 1904 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T14:57:32.936+02:00  INFO 1904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T14:57:33.163+02:00  INFO 1904 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27dfd12b
+2026-11-23T14:57:33.180+02:00  INFO 1904 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T14:57:33.249+02:00  WARN 1904 --- [main] org.hibernate.orm.core                   : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-11-23T14:57:33.276+02:00  INFO 1904 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/wood_workshop?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: wood_workshop/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23T14:57:34.674+02:00  INFO 1904 --- [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T14:57:34.979+02:00  INFO 1904 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T14:57:35.055+02:00  WARN 1904 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T14:57:35.522+02:00  WARN 1904 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2026-11-23T14:57:35.640+02:00  WARN 1904 --- [main] .s.a.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a8d1a394-812d-453a-8365-03413276d697
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2026-11-23T14:57:35.694+02:00  INFO 1904 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2026-11-23T14:57:35.934+02:00  INFO 1904 --- [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T14:57:35.941+02:00  INFO 1904 --- [main] r.p.a.AplicatieWebApplication            : Started AplicatieWebApplication in 6.64 seconds (process running for 7.453)
+2026-11-23T15:00:39.547+02:00  INFO 1904 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-23T15:00:39.553+02:00  INFO 1904 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-23T15:00:39.557+02:00  INFO 1904 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T15:00:39.561+02:00  INFO 1904 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T15:00:39.568+02:00  INFO 1904 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-23T15:25:42.627+02:00  INFO 18540 --- [main] r.p.a.AplicatieWebApplication            : Starting AplicatieWebApplication using Java 26.0.2 with PID 18540 (C:\Users\cosmi.COSMIN_LAPTOP\Downloads\aplicatie-web\aplicatie-web\target\classes started by cosmi in C:\Users\cosmi.COSMIN_LAPTOP\Downloads\aplicatie-web\aplicatie-web)
+2026-11-23T15:25:42.633+02:00  INFO 18540 --- [main] r.p.a.AplicatieWebApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-11-23T15:25:44.009+02:00  INFO 18540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T15:25:44.111+02:00  INFO 18540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 4 JPA repository interfaces.
+2026-11-23T15:25:45.005+02:00  INFO 18540 --- [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-23T15:25:45.027+02:00  INFO 18540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T15:25:45.028+02:00  INFO 18540 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-23T15:25:45.114+02:00  INFO 18540 --- [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2406 ms
+2026-11-23T15:25:45.376+02:00  INFO 18540 --- [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-23T15:25:45.472+02:00  INFO 18540 --- [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.15.Final
+2026-11-23T15:25:46.246+02:00  INFO 18540 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T15:25:46.308+02:00  INFO 18540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T15:25:46.554+02:00  INFO 18540 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5dacf18d
+2026-11-23T15:25:46.557+02:00  INFO 18540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T15:25:46.656+02:00  WARN 18540 --- [main] org.hibernate.orm.core                   : HHH000511: The 5.5.5 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly.The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+2026-11-23T15:25:46.692+02:00  INFO 18540 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/wood_workshop?createDatabaseIfNotExist=true&useSSL=false&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 5.5.5
+	Default catalog/schema: wood_workshop/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23T15:25:48.511+02:00  INFO 18540 --- [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T15:25:48.988+02:00  INFO 18540 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T15:25:49.127+02:00  INFO 18540 --- [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-23T15:25:49.635+02:00  WARN 18540 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T15:25:49.760+02:00  INFO 18540 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userService
+2026-11-23T15:25:50.054+02:00  INFO 18540 --- [main] o.s.b.w.a.WelcomePageHandlerMapping      : Adding welcome page template: index
+2026-11-23T15:25:50.208+02:00  WARN 18540 --- [main] o.s.w.s.resource.ResourceHandlerUtils    : Appended trailing slash to static resource location: file:///C:/Users/cosmi.COSMIN_LAPTOP/Downloads/aplicatie-web/aplicatie-web/uploads/
+2026-11-23T15:25:50.518+02:00  INFO 18540 --- [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T15:25:50.525+02:00  INFO 18540 --- [main] r.p.a.AplicatieWebApplication            : Started AplicatieWebApplication in 8.764 seconds (process running for 9.667)
+2026-11-23T15:26:12.623+02:00  INFO 18540 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-23T15:26:12.623+02:00  INFO 18540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-23T15:26:12.623+02:00  INFO 18540 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-11-23T15:27:13.394+02:00  INFO 18540 --- [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-23T15:27:13.406+02:00  INFO 18540 --- [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-23T15:27:13.411+02:00  INFO 18540 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T15:27:13.415+02:00  INFO 18540 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T15:27:13.422+02:00  INFO 18540 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
